@@ -1,0 +1,229 @@
+ul {
+	list-style:none;
+	padding-left: 0;
+}
+a,span {
+	display:inline-block;
+	text-decoration:none !important;
+}
+img {
+	max-width:100%;
+}
+body, h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Work Sans', sans-serif;
+}
+.def-bg{
+	background: #f7f9ff;
+}
+/* header */
+nav a img {
+	width: 2.8em;
+	position: relative;
+	top: -3px;
+	margin-right: 8px;
+}
+.nava {
+	position: sticky;
+	top: 0;
+	z-index: 38;
+	padding: 5px 0;
+}
+.nava a {
+	font-size:16px;
+}
+.nava a span {
+	font-weight:500;
+	font-size:26px;
+	margin-right: 8px;
+}
+.leva .nav-link {
+	font-size: 15px;
+	padding: 0 20px !important;
+	color: #000 !important;
+}
+/* slider */
+.slider{
+	background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center;
+	background-size: cover;
+	padding: 150px 0;
+	background-blend-mode: overlay;
+	background-color: #0000005c;
+}
+.slider .slide-cap .h4 {
+	font-weight:300;
+	font-size:28px;
+}
+.slider .slide-cap .h2 {
+	font-size:48px;
+}
+/* count */
+.count h1 {
+	font-size:3.5em;
+}
+.count .h5 {
+	font-size:22px;
+	font-weight:400;
+}
+/* peras */
+.peras .h1 {
+	font-size:46px;
+}
+.peras p {
+	font-size:20.6px;
+}
+/* feature */
+.feture-itm{
+	height: 300px;
+	box-shadow: 2.5px 4.33px 30px 0 #4057bf1e;
+	transition: .5s;
+}
+.feture-itm:hover{
+	transform: translateY(-12px);
+	box-shadow: 2.5px 4.33px 30px 0 #4057bf88;
+}
+.feture-itm .l-img{
+	width: 40%;
+	overflow: hidden;
+	border-radius: 5px 0 0 5px;
+}
+.feture-itm .l-img img{
+	height: 100%;
+	width: auto;
+	max-width: inherit;
+	position: relative;
+	left: -2em;
+}
+.feture-itm .r-txt{
+	width: 60%;
+	padding: 20px;
+}
+/* effect */
+.effect .h1 {
+	font-size: 47px;
+	font-weight: 400;
+}
+.effect-itm span{
+	position: relative;
+	cursor: pointer;
+}
+.effect-itm span::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #4e5fb1a6;
+	content: '';
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+}
+.effect-itm:hover span::after{
+	visibility: visible;
+	opacity: 1;
+}
+/* price */
+.def-ttl .h1, .price .def-ttl .h1 {
+	font-size: 3.5em;
+	font-weight: 400;
+}
+.price .bx-pln{
+	padding: 38px;
+	margin-top: 30px;
+}
+.price .bx-pln:hover .pln-btn a,button.def-btn{
+	color: #fff;
+	background: #6278df;
+	border:2px solid #6278df;
+	outline: none;
+}
+.price .bx-pln .h2 {
+	font-size:46px;
+}
+.price .bx-pln p {
+	font-size:22px;
+	margin:0;
+	padding:23px 0;
+} 
+.price .bx-pln ul li {
+	font-size: 23px;
+	line-height: 2.9;
+	color: #6c757d;
+	font-weight: 300;
+}
+.price .bx-pln ul li i {
+	color:#6278df;
+	width:33px;
+}
+.price .pln-btn {
+	text-align: center;
+	margin: 29px 0;
+}
+.price .bx-pln .pln-btn a, .def-btn{
+	padding: 10px 25px;
+	font-size: 21px;
+	font-weight: 600;
+	border: 2px solid transparent;
+	transition: .4s;
+}
+.price .pln-btn a:hover {
+	color: #fff !important;
+	border:2px solid #D24D57 !important;
+	background: #D24D57 !important;
+}
+/* feedback */
+.feedback .def-ttl .h1{
+	font-size: 45px;
+}
+.feedback i {
+	opacity: 0.3;
+	color: #d5d5d5 !important;
+}
+.feedback p {
+	font-size: 24px;
+	padding-top: 7px;
+	font-weight: 300;
+}
+.feedback .card{
+	width: 240px;
+}
+.feedback .card .card-body .h5{
+	margin-bottom: 0;
+	font-size: 20px;
+}
+.feedback .card .card-body p {
+	padding-top: 0;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 400;
+}
+/* people */
+.people .p-item {
+	margin-top:37px;
+}
+.people .p-item .card a{
+	font-weight: 600;
+}
+.people .p-item .card img {
+	width:145px;
+	height:auto;
+	margin-top:-75px;
+	margin-left:16px;
+}
+/* .contact */
+.contact input{
+	height: 54px;
+}
+.contact .mid-bx {
+	padding:30px 20px;
+	padding-top:130px;
+}
+.contact .mid-bx p {
+	font-size:25px;
+	font-weight:300;
+}
+.contact .mid-bx .h2 {
+	font-size:2.6em;
+	font-weight:400;
+	margin-bottom:24px;
+}
